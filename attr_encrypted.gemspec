@@ -63,6 +63,8 @@ Gem::Specification.new do |s|
   s.post_install_message = "\n\n\nWARNING: Several insecure default options and features were deprecated in attr_encrypted v2.0.0.\n
 Additionally, there was a bug in Encryptor v2.0.0 that insecurely encrypted data when using an AES-*-GCM algorithm.\n
 This bug was fixed but introduced breaking changes between v2.x and v3.x.\n
-Please see the README for more information regarding upgrading to attr_encrypted v3.0.0.\n\n\n"
+Please see the README for more information regarding upgrading to attr_encrypted v3.0.0.\n\n\n
+---------------------------------\n\n
+CUSTOM NOTE - This fork is of v3.1.0 so this error above doesn't matter\n\n"
 
 end
